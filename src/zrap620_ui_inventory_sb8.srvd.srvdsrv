@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for ZRAP620_C_INVENTORYTP_SB8'
+define service ZRAP620_UI_INVENTORY_SB8 {
+  expose ZRAP620_C_INVENTORYTP_SB8 as Inventory;
+}
