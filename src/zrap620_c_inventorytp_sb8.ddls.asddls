@@ -7,6 +7,7 @@ define root view entity ZRAP620_C_INVENTORYTP_SB8
 {
   key UUID,
       InventoryID,
+      @Consumption.valueHelpDefinition: [{ entity : {name: 'ZRAP620_CE_PRODUCTS_SB8', element: 'Product'  } , useForValidation: true }]  
       ProductID,
       Quantity,
       @Consumption.valueHelpDefinition: [ {
